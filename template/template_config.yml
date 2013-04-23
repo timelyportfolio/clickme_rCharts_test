@@ -1,0 +1,27 @@
+info: |-
+
+original_url:
+
+demo: |-
+
+data_names:
+    required:
+
+    optional:
+
+params:
+
+scripts:
+    - polychart2.standalone.js
+
+styles:
+
+require_packages:
+    - df2json
+    - rCharts
+
+require_server: no
+
+require_coffeescript: no
+
+

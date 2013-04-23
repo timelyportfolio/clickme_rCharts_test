@@ -1,0 +1,16 @@
+<!doctype HTML>
+<html>
+  <head>
+    
+    {{ get_external(opts) }}
+    
+  </head>
+  
+  <body>
+      <div id=chart1>
+      {{ paste0(get_rCharts_Cumul(opts,"chart1")) }}
+      <div id=chart2>
+      {{ get_rCharts_Drawdowns(opts,"chart2") }}
+      </div>
+  </body>
+</html>
